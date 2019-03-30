@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2130857224F0EF000412194 /* BlocksExapmlesARC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2130856224F0EF000412194 /* BlocksExapmlesARC.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D2925F0A224D066D009F9BC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2925F09224D066D009F9BC5 /* AppDelegate.m */; };
 		D2925F0D224D066D009F9BC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2925F0C224D066D009F9BC5 /* ViewController.m */; };
 		D2925F10224D066D009F9BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2925F0E224D066D009F9BC5 /* Main.storyboard */; };
 		D2925F12224D066E009F9BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2925F11224D066E009F9BC5 /* Assets.xcassets */; };
 		D2925F15224D066E009F9BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2925F13224D066E009F9BC5 /* LaunchScreen.storyboard */; };
 		D2925F18224D066E009F9BC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2925F17224D066E009F9BC5 /* main.m */; };
+		D2938553224D198400D6AEA6 /* BlockExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D2938552224D198400D6AEA6 /* BlockExamples.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2130855224F0EF000412194 /* BlocksExapmlesARC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlocksExapmlesARC.h; sourceTree = "<group>"; };
+		D2130856224F0EF000412194 /* BlocksExapmlesARC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocksExapmlesARC.m; sourceTree = "<group>"; };
 		D2925F05224D066D009F9BC5 /* BlockExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2925F08224D066D009F9BC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D2925F09224D066D009F9BC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		D2925F14224D066E009F9BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2925F16224D066E009F9BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2925F17224D066E009F9BC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2938551224D198400D6AEA6 /* BlockExamples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockExamples.h; sourceTree = "<group>"; };
+		D2938552224D198400D6AEA6 /* BlockExamples.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockExamples.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				D2925F0B224D066D009F9BC5 /* ViewController.h */,
 				D2925F0C224D066D009F9BC5 /* ViewController.m */,
 				D2925F0E224D066D009F9BC5 /* Main.storyboard */,
+				D2938551224D198400D6AEA6 /* BlockExamples.h */,
+				D2938552224D198400D6AEA6 /* BlockExamples.m */,
+				D2130855224F0EF000412194 /* BlocksExapmlesARC.h */,
+				D2130856224F0EF000412194 /* BlocksExapmlesARC.m */,
 				D2925F11224D066E009F9BC5 /* Assets.xcassets */,
 				D2925F13224D066E009F9BC5 /* LaunchScreen.storyboard */,
 				D2925F16224D066E009F9BC5 /* Info.plist */,
@@ -141,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2130857224F0EF000412194 /* BlocksExapmlesARC.m in Sources */,
+				D2938553224D198400D6AEA6 /* BlockExamples.m in Sources */,
 				D2925F0D224D066D009F9BC5 /* ViewController.m in Sources */,
 				D2925F18224D066E009F9BC5 /* main.m in Sources */,
 				D2925F0A224D066D009F9BC5 /* AppDelegate.m in Sources */,
@@ -285,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 537W8H2F9G;
 				INFOPLIST_FILE = BlockExamples/Info.plist;
@@ -302,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 537W8H2F9G;
 				INFOPLIST_FILE = BlockExamples/Info.plist;
